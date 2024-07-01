@@ -12,7 +12,7 @@ a=0
 while [ $a -lt $n ]
 do
 #  echo " IP số $((a+1))"
- read -p "IP số $((a+1)):" I_P
+ read -p "IP số $((a+1)): " I_P
  config
   a=$((a+1))
 done
@@ -75,6 +75,7 @@ install
 cd ~/
 systemctl start haproxy
 systemctl enable haproxy
+echo "đã xong"
 ;;
 2) cd /etc/haproxy
   cat >haproxy.cfg <<EOF
@@ -124,5 +125,6 @@ EOF
 install
 cd ~/
 systemctl restart haproxy
+echo "đã xong"
 ;;
 esac
