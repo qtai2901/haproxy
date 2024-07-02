@@ -1,4 +1,9 @@
-## install
+## install centos
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/qtai2901/haproxy/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/qtai2901/haproxy/main/centos.sh)
 ```
+## install ubuntu
+```
+bash <(curl -Ls https://raw.githubusercontent.com/qtai2901/haproxy/main/ubuntu.sh)
+```
+
