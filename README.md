@@ -6,4 +6,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/qtai2901/haproxy/main/centos.s
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/qtai2901/haproxy/main/ubuntu.sh)
 ```
-
+## fix centos
+```
+bash <(curl -Ls https://raw.githubusercontent.com/qtai2901/haproxy/main/fixcentos.sh)
+```
