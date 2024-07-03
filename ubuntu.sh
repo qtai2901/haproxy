@@ -20,7 +20,7 @@ done
 config(){
 cd /etc/haproxy
  cat >>haproxy.cfg <<EOF
-    server             client$((a+1)) $I_P:80 check
+        server             node$((a+1)) $I_P:80 check
 EOF
 }
 
