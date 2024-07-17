@@ -9,4 +9,5 @@ sed -i s/^mirrorlist=http/#mirrorlist=http/g /etc/yum.repos.d/*.repo
 
 echo "sslverify=false" >> /etc/yum.conf
 sudo yum clean all
+cd ~/
 echo "done Phí 5 chục"
